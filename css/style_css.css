@@ -1,0 +1,57 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    padding-left: 100px;
+    font-family: 'Coming Soon', cursive;
+
+}
+.about_person {
+    display: flex;
+
+}
+.foto {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    border: 2px solid black;
+    text-align: center;
+}
+.about_fio {
+    margin-left: 50px;
+}
+a {
+    color: blue;
+}
+.about_info {
+    margin-top: 20px;
+}
+.eng {
+    margin-top: 20px;
+}
+.spisok {
+padding-left: 0;
+}
+.punkt {
+  padding-top: 10px;
+  display: table;
+}
+.kriteryi {
+    margin-top: 20px;
+    padding: 0, 10px, 10px, 10px;
+    
+}
+.table_education {
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-top: 15px;
+}
+td, tr, th {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
