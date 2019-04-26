@@ -25,20 +25,39 @@
     margin-left: 50px;
 }
 a {
+    cursor: pointer;
+    text-decoration: none;
     color: blue;
 }
-.about_info {
-    margin-top: 20px;
+a:hover {
+    color: green;
 }
-.eng {
+input {
+    cursor: pointer;
+}
+input:focus, button:focus, select:focus  {
+    outline: none;
+}
+.margin {
     margin-top: 20px;
 }
 .spisok {
 padding-left: 0;
 }
 .punkt {
-  padding-top: 10px;
+  padding-bottom: 10px;
   display: table;
+}
+button {
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+button:hover {
+    opacity: 0.8;
+}
+select {
+    cursor: pointer;
 }
 .kriteryi {
     margin-top: 20px;
@@ -48,10 +67,13 @@ padding-left: 0;
 .table_education {
     border: 1px solid black;
     border-spacing: 0px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 td, tr, th {
     padding: 5px;
     border: 1px solid black;
     text-align: center;
+}
+tr:hover {
+    background-color: rgba(109, 99, 57, 0.5);
 }
