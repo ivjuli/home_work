@@ -18,27 +18,27 @@
 
 <div class="about_person">
 <div class="foto">
-    <div><b>FOTO</b><br>(тут должно быть мое фото)</div>
+    <div>FOTO<br>(тут должно быть мое фото)</div>
 </div>
 <div class="about_fio">
-    <div><b>Имя:</b> Юлия</div>
-    <a href="https://github.com/ivjuli">Ссылка на репозиторий <b>CitHub</b></a>
-    <div><b>Опыт работы:</b> нет</div> 
+    <div>Имя: Юлия</div>
+    <a href="https://github.com/ivjuli">Ссылка на репозиторий CitHub</a>
+    <div>Опыт работы: нет</div> 
 </div>
 </div>
 
-<div class="about_info">
-<b>Дата собеседования:</b>
-<input type="date">
+<div class="margin">Дата собеседования:
+<input type="date"></div>
 
-<div class="eng"><b>Уровень английского:</b>
-<input name="lang" type="radio">&nbsp;Плохо&nbsp;&nbsp;&nbsp;
-<input name="lang" type="radio">&nbsp;Средне&nbsp;&nbsp;&nbsp;
-<input name="lang" type="radio">&nbsp;Хорошо&nbsp;&nbsp;&nbsp;
-<input name="lang" type="radio">&nbsp;Очень хорошо&nbsp;&nbsp;&nbsp;
+<div class="margin">Уровень английского:
+<label><input name="lang" type="radio">Плохо</label>
+<label><input name="lang" type="radio">Средне</label>
+<label><input name="lang" type="radio">Хорошо</label>
+<label><input name="lang" type="radio">Очень хорошо</label>
 </div>
 
-<ul class="spisok"><b>Ключевые навыки:</b>
+<div class="margin">Ключевые навыки:</div>
+<ul class="spisok">
     <li class="punkt">- HTML</li>
     <li class="punkt">- CSS/LESS</li>
     <li class="punkt">- JavaScript</li>
@@ -47,34 +47,36 @@
     <input type="text" placeholder="введите навык">
     <button>Добавить в список</button>
 
+<div class="margin">Подходит по критериям:<br><br>
+<label><input type="checkbox">Знание английкого</label>
+<label><input type="checkbox">Оклад</label>
+<label><input type="checkbox">Навыки</label>
+<label><input type="checkbox">Сразу видно, что свой человек</label>
+</div>
 
-<div class="kriteryi"><b>Подходит по критериям:</b><br><br>
-    <input type="checkbox">&nbsp;Знание английкого&nbsp;&nbsp;&nbsp;
-    <input type="checkbox">&nbsp;Оклад&nbsp;&nbsp;&nbsp;
-    <input type="checkbox">&nbsp;Навыки&nbsp;&nbsp;&nbsp;
-    <input type="checkbox">&nbsp;Сразу видно, что свой человек&nbsp;&nbsp;&nbsp;
-    </div>
-</div><br>
 
-<form><b>Коммуникабельность:</b>
+<div class="margin">Коммуникабельность:
 <select>
     <option value="1">Коммуникабелен</option>
     <option value="2">Коммуникабелен? Что это?</option>
     <option value="3">Некоммуникабелен</option>
 </select>
-</form><br>
+</div>
 
-<div><b>Желаемая З/П:</b>
-    <input type="text" placeholder="введите значение">
-    </div><br>
+<div class="margin">Желаемая З/П:
+    <input type="number" placeholder="введите значение">
+</div>
 
 <table class="table_education">
-    <b>Образование, курсы и т.п.</b>
-<tr>
+    Образование, курсы и т.п.
+<thead>
+    <tr>
     <th>#</th>
     <th>Сроки обучения</th>
     <th>Наименование учебного заведения, курсов</th>
-</tr>
+    </tr>
+</thead>
+<tbody>
 <tr>
         <td>1</td>
         <td>декабрь 2018 - март 2019</td>
@@ -90,6 +92,7 @@
             <td>январь 2019 - май 2019</td>
             <td>Level UP, Английский язык</td>
         </tr>
+</tbody>
 </table>
 
 
